@@ -1,0 +1,400 @@
+.section {
+  overflow: hidden;
+  padding: 8rem 5rem;
+  background-color: var(--900);
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding: 3.5rem 2.5rem;
+  }
+}
+
+.section.banner {
+  background-color: var(--background2-11666aaa);
+}
+
+@media screen and (max-width: 767px) {
+  .section.banner {
+    display: none;
+  }
+}
+
+.section.banner {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--600);
+
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section.banner {
+    display: block;
+  }
+}
+
+.section.login {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-color: var(--900);
+}
+
+.section.is-relative {
+  position: relative;
+}
+
+.cta-card-content {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex: 1;
+  grid-column-gap: 4rem;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .cta-card-content {
+    grid-column-gap: 2rem;
+  }
+}
+
+.text-box {
+  max-width: 43.75rem;
+}
+
+.text-box._600px {
+  max-width: 37.5rem;
+  min-height: 4rem;
+}
+
+.centre {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visible-text-box {
+  border-radius: 0.375rem;
+  background-color: var(--background4-f20a4cd7);
+}
+
+.text-box._500px {
+  max-width: 31.25rem;
+  min-height: 4rem;
+}
+
+.text-box._400px {
+  max-width: 25rem;
+  min-height: 4rem;
+}
+
+.text-box._800px {
+  max-width: 50rem;
+  min-height: 4rem;
+}
+
+.text-box._700px {
+  max-width: 43.75rem;
+  min-height: 4rem;
+}
+
+.text-box._900px {
+  max-width: 56.25rem;
+}
+
+.heading {
+  font-family: Switzer;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.heading.medium {
+  display: block;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: Switzer;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .heading.medium {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading.medium {
+    font-size: 2rem;
+  }
+}
+
+.heading.extra-small {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: Switzer;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 479px) {
+  .heading.extra-small {
+    font-size: 1.125rem;
+  }
+}
+
+.heading.small {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: Switzer;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 479px) {
+  .heading.small {
+    font-size: 1.25rem;
+  }
+}
+
+.heading.regular {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: Switzer;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 479px) {
+  .heading.regular {
+    font-size: 1.375rem;
+  }
+}
+
+.heading.extra-large {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0.5rem;
+
+  font-family: Switzer;
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .heading.extra-large {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading.extra-large {
+    font-size: 2.5rem;
+  }
+}
+
+.heading.large {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+  font-family: Switzer;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .heading.large {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading.large {
+    font-size: 2.125rem;
+  }
+}
+
+.spacer-16 {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .spacer-16 {
+    height: 2.5rem;
+  }
+}
+
+.paragraph {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph {
+    font-size: 0.875rem;
+  }
+}
+
+.paragraph.small {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.paragraph.extra-large {
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 991px) {
+  .paragraph.extra-large {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph.extra-large {
+    font-size: 1.375rem;
+  }
+}
+
+.paragraph.large {
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph.large {
+    font-size: 1.0625rem;
+  }
+}
+
+.text-weight-medium {
+  font-weight: 500;
+}
+
+.spacer-32 {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 auto;
+  border-radius: 0.375rem;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .spacer-32 {
+    height: 2.5rem;
+  }
+}
+
+.button {
+  min-height: 3.5rem;
+  padding: 1rem 1.75rem;
+  flex: 0 0 auto;
+
+  border-radius: 0.5rem;
+
+  background-color: var(--primaryColour-5ada10ac);
+
+  transition: transform 250ms ease,opacity 250ms ease;
+
+  color: var(--background1-4845a7f3);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.88;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 991px) {
+  .button {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .button {
+    font-size: 1rem;
+  }
+}
+
+.button.small {
+  min-height: 2.5rem;
+  padding: 0.5625rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9375rem;
+}
+
+@media screen and (max-width: 479px) {
+  .button.small.hide-mobile-portrait {
+    display: none;
+  }
+}
+
+.button.full-width {
+  width: 100%;
+}
+
+.gradient-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("https://cdn.prod.website-files.com/686b63d582bddc7185081d6b/686b63d582bddc7185081e9c_Ethereal%20Abstract%20Art.avif");
+  background-position: 0px 0px, 50% 50%;
+
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+}

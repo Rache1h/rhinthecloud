@@ -1,0 +1,82 @@
+.section {
+  overflow: hidden;
+  padding: 8rem 5rem;
+  background-color: var(--900);
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding: 3.5rem 2.5rem;
+  }
+}
+
+.section.banner {
+  background-color: var(--background2-11666aaa);
+}
+
+@media screen and (max-width: 767px) {
+  .section.banner {
+    display: none;
+  }
+}
+
+.section.banner {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--600);
+
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section.banner {
+    display: block;
+  }
+}
+
+.section.login {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-color: var(--900);
+}
+
+.section.is-relative {
+  position: relative;
+}
+
+.container-large {
+  z-index: 0;
+  width: 100%;
+  max-width: 90rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .container-large {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-large {
+    width: 100%;
+  }
+}
+
+.container-large.centred {
+  margin-right: auto;
+  margin-left: auto;
+}
